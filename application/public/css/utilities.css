@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.eot");
+    src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Italic.eot");
+    src: url("../fonts/Roboto-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Bold.eot");
+    src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.eot");
+    src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Italic.eot");
+    src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Bold.eot");
+    src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lora;
+    src: url("../fonts/Lora-Regular.eot");
+    src: url("../fonts/Lora-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lora-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lora Italic";
+    src: url("../fonts/Lora-Italic.eot");
+    src: url("../fonts/Lora-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lora-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lora Bold";
+    src: url("../fonts/Lora-Bold.eot");
+    src: url("../fonts/Lora-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lora-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lora Bold Italic";
+    src: url("../fonts/Lora-BoldItalic.eot");
+    src: url("../fonts/Lora-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Lora-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.eot");
+    src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Italic.eot");
+    src: url("../fonts/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url("../fonts/OpenSans-Bold.eot");
+    src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Arvo;
+    src: url("../fonts/Arvo-Regular.eot");
+    src: url("../fonts/Arvo-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Arvo-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Arvo;
+    src: url("../fonts/Arvo-Italic.eot");
+    src: url("../fonts/Arvo-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Arvo-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Arvo Bold";
+    src: url("../fonts/Arvo-Bold.eot");
+    src: url("../fonts/Arvo-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Arvo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Arvo Bold Italic";
+    src: url("../fonts/Arvo-BoldItalic.eot");
+    src: url("../fonts/Arvo-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Arvo-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Fugaz One";
+    src: url("../fonts/FugazOne-Regular.eot");
+    src: url("../fonts/FugazOne-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/FugazOne-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans {
+    font-family: "Open Sans";
+}
+.open-sans-bold {
+    font-family: "Open Sans Bold";
+}
+.lora-italic {
+    font-family: "Lora Italic";
+}
+.lora-bold {
+    font-family: "Lora Bold";
+}
+.lora-bold-italic {
+    font-family: "Lora Bold Italic";
+}
+.roboto {
+    font-family: Roboto;
+}
+.arvo {
+    font-family: Arvo;
+}
+.arvo-bold {
+    font-family: "Arvo Bold";
+}
+.fugaz-one {
+    font-family: "Fugaz One";
+}
+.text-red {
+    color: red;
+}
+.text-black {
+    color: #000;
+}
+.text-olive {
+    color: #880;
+}
+.text-jaguar {
+    color: #20202a;
+}
+.text-very-lightgrey {
+    color: #cecece;
+}
+.text-gorse {
+    color: #fee342;
+}
+.text-night-rider {
+    color: #757575;
+}
+.red {
+    background-color: red;
+}
+.white {
+    background-color: #fff;
+}
+.black {
+    background-color: #000;
+}
+.olive {
+    background-color: #880;
+}
+.jaguar {
+    background-color: #20202a;
+}
+.very-lightgrey {
+    background-color: #cecece;
+}
+.gorse {
+    background-color: #fee342;
+}
+.night-rider {
+    background-color: #353535;
+}
+.hoverable {
+    margin-top: 1rem;
+    -webkit-box-shadow: 0 0 0 0 #777;
+    -moz-box-shadow: 0 0 0 0 #777;
+    box-shadow: 0 0 0 0 #777;
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.hoverable:hover {
+    margin-top: 0.9rem;
+    margin-top: calc(1rem - 1px);
+    -webkit-box-shadow: 0 2px 6px 2px #777;
+    -moz-box-shadow: 0 2px 6px 2px #777;
+    box-shadow: 0 2px 6px 2px #777;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.btn-material {
+    padding-bottom: 4px;
+    border-radius: 0.15rem;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}

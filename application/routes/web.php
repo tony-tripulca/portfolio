@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group([
+    'namespace' => 'Web',
+    'as' => 'web.',
+], function () {
+    Route::get('/', 'LandingPageController@home')->name('base');
+    Route::get('/home', 'LandingPageController@home')->name('home');
 });
